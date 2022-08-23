@@ -14,12 +14,12 @@ specifiers:
   vue-template-compiler: 2.6.14
 
 dependencies:
-  postcss: registry.npmjs.org/postcss/8.4.16
   vue: registry.npmjs.org/vue/2.6.14
 
 devDependencies:
   '@rollup/plugin-commonjs': registry.npmjs.org/@rollup/plugin-commonjs/22.0.2_rollup@2.78.1
   '@rollup/plugin-node-resolve': registry.npmjs.org/@rollup/plugin-node-resolve/13.3.0_rollup@2.78.1
+  postcss: registry.npmjs.org/postcss/8.4.16
   rimraf: registry.npmjs.org/rimraf/3.0.2
   rollup: registry.npmjs.org/rollup/2.78.1
   rollup-plugin-vue: registry.npmjs.org/rollup-plugin-vue/5.1.9_7vzq5c4bucsbjvkaalme7ap3ve
@@ -3261,6 +3261,7 @@ packages:
     version: 3.3.4
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
+    dev: true
 
   registry.npmjs.org/native-request/1.1.0:
     resolution: {integrity: sha512-uZ5rQaeRn15XmpgE0xoPL8YWqcX90VtCFglYwAgkvKM5e8fog+vePLAhHxuuv/gRkrQxIeh5U3q9sMNUrENqWw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/native-request/-/native-request-1.1.0.tgz}
@@ -3400,6 +3401,7 @@ packages:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz}
     name: picocolors
     version: 1.0.0
+    dev: true
 
   registry.npmjs.org/picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz}
@@ -3499,6 +3501,7 @@ packages:
       nanoid: registry.npmjs.org/nanoid/3.3.4
       picocolors: registry.npmjs.org/picocolors/1.0.0
       source-map-js: registry.npmjs.org/source-map-js/1.0.2
+    dev: true
 
   registry.npmjs.org/prettier/2.7.1:
     resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/prettier/-/prettier-2.7.1.tgz}
@@ -3909,6 +3912,7 @@ packages:
     name: source-map-js
     version: 1.0.2
     engines: {node: '>=0.10.0'}
+    dev: true
 
   registry.npmjs.org/source-map-resolve/0.5.3:
     resolution: {integrity: sha512-Htz+RnsXWk5+P2slx5Jh3Q66vhQj1Cllm0zvnaY98+NFx+Dv2CF/f5O/t8x+KaNdrdIAsruNzoh/KpialbqAnw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/source-map-resolve/-/source-map-resolve-0.5.3.tgz}
