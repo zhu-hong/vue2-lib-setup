@@ -8,11 +8,12 @@ export default defineConfig({
   output: {
     format: 'esm',
     file: 'dist/index.js',
-    sourcemap: false,
   },
   plugins: [
     commonjs(),
-    nodeResolve(),
+    nodeResolve({
+      browser: true,
+    }),
     vue(),
   ],
 })
