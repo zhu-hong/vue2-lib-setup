@@ -1,28 +1,32 @@
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-  background-color: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background-color: #CFD1D4;
-  border-radius: 6px;
-}
-::-webkit-scrollbar-corner,
-::-webkit-scrollbar-track {
-  background: transparent;
-}
 @font-face {
   font-family: Emoji;
   src: local("Apple Color Emojiji"), local("Segoe UI Emoji"), local("Segoe UI Symbol"), local("Noto Color Emoji");
   unicode-range: U+1F000-1F644, U+203C-3299;
 }
 /* 衬线字体 */
-.fontserif {
+.font-serifm {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
 /* 等宽字体 */
-.fontmono {
+.font-monom {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 6px;
+}
+*:hover > *::-webkit-scrollbar-thumb {
+  background-color: #CFD1D4;
+}
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 /*
@@ -37,6 +41,9 @@
   border-width: 0; /* 2 */
   border-style: solid; /* 2 */
   border-color: currentColor; /* 2 */
+
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /*
